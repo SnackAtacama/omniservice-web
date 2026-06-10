@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Omniservice Servicios Industriales – Obras civiles y minería con altos estándares de calidad y seguridad.">
+  <title>Omniservice | Servicios Industriales</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header id="navbar">
+    <div class="container nav-inner">
+      <a href="#inicio" class="nav-logo" id="nav-logo" aria-label="Omniservice"></a>
+      <ul class="nav-links" id="nav-links" role="list"></ul>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">Servicios Industriales</div>
+        <h1 id="hero-title"></h1>
+        <p id="hero-subtitle"></p>
+        <div class="hero-actions">
+          <a href="#servicios" class="btn btn-primary" id="hero-cta-primary"></a>
+          <a href="#contacto" class="btn btn-outline" id="hero-cta-secondary"></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-card-title">Nuestros Resultados</div>
+          <div class="hero-stats-grid" id="hero-stats"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NOSOTROS ===== -->
+  <section id="nosotros">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Quiénes Somos</h2>
+          <div class="section-divider"></div>
+          <p id="about-body"></p>
+          <div class="about-mv">
+            <div class="mv-card">
+              <h4>Misión</h4>
+              <p id="about-mission-text"></p>
+            </div>
+            <div class="mv-card" style="border-left-color: var(--orange)">
+              <h4 style="color: var(--orange)">Visión</h4>
+              <p id="about-vision-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="values-grid" id="values-grid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS BAR ===== -->
+  <div class="stats-bar">
+    <div class="container">
+      <div class="stats-grid" id="stats-grid"></div>
+    </div>
+  </div>
+
+  <!-- ===== SERVICIOS ===== -->
+  <section id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <h2>Nuestros Servicios</h2>
+        <div class="section-divider"></div>
+        <p id="services-subtitle"></p>
+      </div>
+      <div class="services-grid" id="services-grid"></div>
+    </div>
+  </section>
+
+  <!-- ===== PROYECTOS ===== -->
+  <section id="proyectos">
+    <div class="container">
+      <div class="section-header">
+        <h2>Proyectos</h2>
+        <div class="section-divider"></div>
+        <p id="projects-subtitle"></p>
+      </div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section id="contacto">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Contacto</h2>
+          <div class="section-divider"></div>
+          <p>Estamos disponibles para atender tus consultas y entregar soluciones a medida para tu proyecto.</p>
+          <div class="contact-items" id="contact-items"></div>
+        </div>
+        <div class="contact-form-wrap">
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="f-name">Nombre</label>
+                <input type="text" id="f-name" name="name" placeholder="Tu nombre" required>
+              </div>
+              <div class="form-group">
+                <label for="f-company">Empresa</label>
+                <input type="text" id="f-company" name="company" placeholder="Tu empresa">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="f-email">Email</label>
+              <input type="email" id="f-email" name="email" placeholder="correo@empresa.cl" required>
+            </div>
+            <div class="form-group">
+              <label for="f-service">Servicio de interés</label>
+              <select id="f-service" name="service">
+                <option value="">Seleccionar servicio...</option>
+                <option>Obras Civiles</option>
+                <option>Servicios Mineros</option>
+                <option>Mantención Industrial</option>
+                <option>Instalaciones Eléctricas</option>
+                <option>Estructuras Metálicas</option>
+                <option>Movimiento de Tierras</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="f-message">Mensaje</label>
+              <textarea id="f-message" name="message" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">
+              Enviar mensaje
+            </button>
+          </form>
+          <div class="form-success" id="form-success">
+            <p style="font-size:1.5rem; margin-bottom:0.5rem">Mensaje enviado</p>
+            <p style="font-weight:400; color: var(--gray-mid)">Nos pondremos en contacto a la brevedad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-text">
+            <span class="name" id="footer-brand-name"></span>
+            <span class="sub" id="footer-brand-sub"></span>
+          </span>
+          <p id="footer-tagline"></p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <ul id="footer-nav"></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Servicios</h4>
+          <ul id="footer-services"></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span id="footer-legal"></span>
+        <span>Yerbas Buenas 431 Of. 26</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== SCROLL TOP ===== -->
+  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <script src="main.js"></script>
+</body>
+</html>
