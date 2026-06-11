@@ -83,22 +83,40 @@
     "subtitle": "Algunos de nuestros trabajos recientes en faenas mineras y obras civiles",
     "items": [
       {
-        "title": "Servicios Mineros Subterráneos",
-        "category": "Minería",
-        "description": "Perforación y trabajos especializados en interior mina, con personal certificado y equipos de última generación.",
+        "title": "Nave Industrial con Estructura Metálica",
+        "category": "Obras Civiles",
+        "description": "Construcción de nave industrial con estructura metálica y cubierta para faena minera en zona norte.",
         "image": "img/project1.jpg"
       },
       {
-        "title": "Construcción de Infraestructura Industrial",
-        "category": "Obras Civiles",
-        "description": "Construcción de nave industrial con estructura metálica y cubierta para faena minera en zona norte.",
+        "title": "Taller Mecánico para Faena",
+        "category": "Mantención",
+        "description": "Habilitación de taller mecánico con instalación de elevadores industriales HTL2040 y pavimento epóxico.",
+        "image": "img/project6.jpg"
+      },
+      {
+        "title": "Módulo Container con Techado",
+        "category": "Instalaciones",
+        "description": "Fabricación e instalación de módulo container habilitado con techado a dos aguas para faena minera.",
+        "image": "img/project3.jpg"
+      },
+      {
+        "title": "Módulo de Oficina en Faena",
+        "category": "Instalaciones",
+        "description": "Habilitación de módulo prefabricado para uso administrativo en faena, con aislación térmica y terminaciones interiores.",
         "image": "img/project2.jpg"
       },
       {
-        "title": "Instalación de Módulos en Faena",
+        "title": "Módulo Administrativo Container",
         "category": "Instalaciones",
-        "description": "Habilitación e instalación de módulos contenedores para uso operativo en faena minera.",
-        "image": "img/project3.jpg"
+        "description": "Construcción e instalación de módulo container adaptado para uso de oficinas administrativas en faena minera.",
+        "image": "img/project4.jpg"
+      },
+      {
+        "title": "Fundación de Hormigón Impermeabilizada",
+        "category": "Obras Civiles",
+        "description": "Ejecución de losa de fundación con impermeabilización perimetral en faena industrial.",
+        "image": "img/project5.jpg"
       }
     ]
   },
