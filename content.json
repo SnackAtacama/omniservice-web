@@ -18,7 +18,7 @@
 
   "hero": {
     "title": "Soluciones Integrales para la Industria y Minería",
-    "subtitle": "Obras civiles, mantención industrial y servicios mineros con altos estándares de calidad y seguridad.",
+    "subtitle": "Obras civiles, mantención industrial y servicios mineros con estándares de calidad y seguridad.",
     "cta_primary": "Conoce nuestros servicios",
     "cta_secondary": "Contáctanos"
   },
@@ -132,7 +132,7 @@
     "email": "contacto@omniservice.cl",
     "phone": "+56 9 XXXX XXXX",
     "address": "Yerbas Buenas 431 Of. 26",
-    "city": "Copiapó, Chile",
+    "city": "Copiapó, Tercera Región Atacama, Chile",
     "schedule": "Lunes a Viernes: 9:00 - 18:00 hrs",
     "social": {
       "linkedin": "",
@@ -143,6 +143,6 @@
 
   "footer": {
     "tagline": "Comprometidos con la excelencia industrial.",
-    "legal": "© 2025 Omniservice Servicios Industriales. Todos los derechos reservados."
+    "legal": "© 2026 Omniservice Servicios Industriales. Todos los derechos reservados."
   }
 }
