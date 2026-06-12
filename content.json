@@ -12,6 +12,7 @@
     { "label": "Nosotros", "href": "#nosotros" },
     { "label": "Servicios", "href": "#servicios" },
     { "label": "Proyectos", "href": "#proyectos" },
+    { "label": "Clientes", "href": "#clientes" },
     { "label": "Contacto", "href": "#contacto" }
   ],
 
@@ -119,6 +120,10 @@
         "image": "img/project5.jpg"
       }
     ]
+  },
+
+  "clients": {
+    "items": []
   },
 
   "contact": {

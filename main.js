@@ -133,6 +133,23 @@ function buildServices(data) {
   });
 }
 
+// ===== BUILD CLIENTES =====
+function buildClients(data) {
+  const grid = document.getElementById('clients-grid');
+  if (!grid) return;
+  const items = data.clients && data.clients.items ? data.clients.items : [];
+  if (items.length === 0) {
+    grid.innerHTML = '<p class="clients-placeholder">Logos de clientes próximamente.</p>';
+    return;
+  }
+  grid.innerHTML = items.map(c => `
+    <div class="client-card">
+      ${c.logo
+        ? `<img src="${c.logo}" alt="${c.name}">`
+        : `<span class="client-name">${c.name}</span>`}
+    </div>`).join('');
+}
+
 // ===== BUILD PROYECTOS =====
 function buildProjects(data) {
   const { projects } = data;
@@ -279,6 +296,7 @@ async function init() {
   buildAbout(data);
   buildServices(data);
   buildProjects(data);
+  buildClients(data);
   buildContact(data);
   buildFooter(data);
   initNavbar();
