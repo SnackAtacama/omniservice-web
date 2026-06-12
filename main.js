@@ -30,15 +30,7 @@ function icon(name, cls = '') {
 
 // ===== LOAD CONTENT =====
 async function loadContent() {
-  try {
-    const res = await fetch('./content.json');
-    if (!res.ok) throw new Error('fetch failed');
-    return res.json();
-  } catch(e) {
-    // fallback: fetch con URL absoluta
-    const res = await fetch(window.location.origin + '/content.json');
-    return res.json();
-  }
+  return window.SITE_CONTENT;
 }
 
 // ===== BUILD NAV =====
