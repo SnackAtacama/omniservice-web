@@ -25,9 +25,9 @@
 
   "about": {
     "title": "Quiénes Somos",
-    "body": "Omniservice es una empresa dedicada a la prestación de servicios industriales especializados para el sector minero y obras civiles. Contamos con un equipo altamente calificado y comprometido con los más altos estándares de calidad, seguridad y medio ambiente.",
+    "body": "Omniservice es una empresa dedicada a la prestación de servicios industriales especializados para el sector minero y obras civiles. Contamos con un equipo altamente calificado y comprometido con los estándares de calidad, seguridad y medio ambiente.",
     "mission": "Proveer soluciones industriales integrales que superen las expectativas de nuestros clientes, garantizando la seguridad de nuestros trabajadores y el cuidado del medio ambiente.",
-    "vision": "Ser reconocidos como el socio estratégico preferido en servicios industriales y mineros a nivel nacional.",
+    "vision": "Ser reconocidos como el socio estratégico preferido en servicios industriales y mineros.",
     "values": [
       { "icon": "shield-check", "title": "Seguridad", "text": "La seguridad de nuestro equipo y clientes es nuestra prioridad número uno." },
       { "icon": "star", "title": "Calidad", "text": "Aplicamos los más altos estándares en cada proceso y entrega." },
@@ -132,7 +132,7 @@
     "email": "contacto@omniservice.cl",
     "phone": "+56 9 XXXX XXXX",
     "address": "Yerbas Buenas 431 Of. 26",
-    "city": "Antofagasta, Chile",
+    "city": "Copiapó, Chile",
     "schedule": "Lunes a Viernes: 9:00 - 18:00 hrs",
     "social": {
       "linkedin": "",
