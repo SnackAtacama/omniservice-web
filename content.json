@@ -123,7 +123,12 @@
   },
 
   "clients": {
-    "items": []
+    "items": [
+      { "name": "Enaex", "logo": "img/cliente-enaex.png" },
+      { "name": "Atacama Kozan", "logo": "img/cliente-atacama-kozan.png" },
+      { "name": "Pucobre", "logo": "img/cliente-pucobre.png" },
+      { "name": "Minera San Gerónimo", "logo": "img/cliente-san-geronimo.png" }
+    ]
   },
 
   "contact": {
